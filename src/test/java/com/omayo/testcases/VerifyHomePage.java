@@ -28,7 +28,7 @@ public class VerifyHomePage {
 	    softAssert = new SoftAssert();
     }
     
-    @Test
+    @Test(priority = 0)
     public void verifyUserAbleToSelectOptionsFromDropdown() {
     	// hard assertion
     	/*assertEquals(omayoHomePage.getHomePageTitle(), "omayo (QAFox.com)");
